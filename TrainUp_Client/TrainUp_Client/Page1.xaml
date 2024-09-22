@@ -1,0 +1,51 @@
+﻿<Page x:Class="WpfApp1.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="630" d:DesignWidth="500"
+      Title="Page1">
+
+    <Grid>
+        <Label Content="Programmi" Foreground="DarkOliveGreen" FontFamily="Georgia" FontSize="26" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Width="185"/>
+        <Label Content="Programmi creati dagli utenti" Foreground="DarkOliveGreen" FontFamily="Georgia" FontSize="16" HorizontalAlignment="Left" Margin="23,205,0,0" VerticalAlignment="Top" Width="234"/>
+
+        <!-- Barra degli strumenti -->
+        <Grid Height="60" Background="DarkOliveGreen" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button  Margin="5,5,25,5" Click="New_card_ClickAsync" Background="Transparent" BorderBrush="Transparent">
+                    <Image Source="C:\Users\abuzz\OneDrive\Desktop\Elab_APL\image\icona1.png" Width="35" Height="30"/>
+                </Button>
+                <Button  Margin="5,5,25,5" Click="Exercise_ButtonClick" Background="Transparent" BorderBrush="Transparent">
+                    <Image Source="C:\Users\abuzz\OneDrive\Desktop\Elab_APL\image\icona2.png" Width="35" Height="30"/>
+                </Button>
+                <Button  Margin="5,5,25,5"  Click="Statistiche_ButtonClick" Background="Transparent" BorderBrush="Transparent">
+                    <Image Source="C:\Users\abuzz\OneDrive\Desktop\Elab_APL\image\icona3.png" Width="35" Height="30"/>
+                </Button>
+                <Button  Margin="5,5,25,5" Click="Setting_Click" Background="Transparent" BorderBrush="Transparent">
+                    <Image Source="C:\Users\abuzz\OneDrive\Desktop\Elab_APL\image\icona4.png" Width="35" Height="30"/>
+                </Button>
+                <Button  Margin="5,5,0,5" Click="LogoutButton_Click" Background="Transparent" BorderBrush="Transparent">
+                    <Image Source="C:\Users\abuzz\OneDrive\Desktop\Elab_APL\image\icona5.png" Width="35" Height="30"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Name="cardPanel" Margin="42,58,44,425">
+
+        </StackPanel>
+
+        <Rectangle Fill="DarkOliveGreen" Height="4" VerticalAlignment="Top" Margin="32,191,325,0"/>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="23,246,44,60">
+            <StackPanel Name="CardPanel2" Margin="37,19,40,94" Width="386" Height="354">
+                <!-- Inserisci qui i tuoi elementi da visualizzare 
+                        
+-->
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

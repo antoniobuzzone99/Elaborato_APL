@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ImageViewerWindows.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="creaScheda.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page5.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_addome.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_braccia.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_cardio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_gambe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_glutei.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_schiena.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_spalle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_stretching.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_torace.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaEs_tutti.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="stampaUserCard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="statistiche.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ImageViewerWindows.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="creaScheda.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_addome.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_braccia.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_cardio.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_gambe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_glutei.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_schiena.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_spalle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_stretching.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_torace.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaEs_tutti.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="stampaUserCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="statistiche.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
