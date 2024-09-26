@@ -85,7 +85,7 @@ func updatePassword(c echo.Context) error {
 
 	state, err := changeUserPassword(data)
 	if err != nil {
-		return c.JSON(http.StatusInternalServerError, map[string]string{"state": "fault"})
+		return c.JSON(http.StatusInternalServerError, map[string]int{"state": state})
 	}
 	return c.JSON(http.StatusOK, map[string]int{"state": state})
 }
